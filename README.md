@@ -1,5 +1,9 @@
-# MultiAgentPathFinding
+# Multi-Agent Path Finding
+I did this project in fall 2021 as part of the course porject for [CMPT-417](http://www.sfu.ca/outlines.html?2022/summer/cmpt/417/d100). Instructor of the course was [Dr. Hang Ma](https://www.cs.sfu.ca/~hangma/). The code for visualization of the program was provided by the instructor.
+## Introduction
+Multi-Agent Path Finding (MAPF) is about finding shortest collision-free paths for a set of agents to take the agents from their start locations to their goal locations. Shortest path(s) for a single agent can be found using different seach algorithms includeing Breadth First Search (BFS) or A<sup>*</sup> search.  
 ## How to run the program:
 1. Go to env\Scripts and activate the environment by command .\activate
-2. Now navigate back to MultiAgentPathFinding directory and enter following command: python .\run_experiments.py --instance .\instances\test_20.txt --solver CBS
+2. Now navigate back to MultiAgentPathFinding directory and enter following command <br/>
+python .\run_experiments.py --instance .\instances\test_20.txt --solver CBS
 3. As we can see, the above command takes two inputs: name of the experiment from instances folder to run (e.g. test_20.txt) and type of the solver (e.g. CBS)
