@@ -1,7 +1,7 @@
 # Multi-Agent Path Finding
 I did this project in fall 2021 as part of the course porject for [CMPT-417](http://www.sfu.ca/outlines.html?2022/summer/cmpt/417/d100). Instructor of the course was [Dr. Hang Ma](https://www.cs.sfu.ca/~hangma/). The code for visualization of the program was provided by the instructor.
 ## Introduction
-Multi-Agent Path Finding (MAPF) is about finding shortest collision-free paths for a set of agents to take the agents from their start locations to their goal locations. Shortest path(s) for a single agent can be found using different seach algorithms includeing Breadth First Search (BFS) or A<sup>*</sup> search.  
+Multi-Agent Path Finding (MAPF) is about finding shortest collision-free paths for a set of agents to take the agents from their start locations to their goal locations. Shortest path(s) for a single agent can be found using different seach algorithms includeing Breadth First Search (BFS) or A<sup>*</sup> search. However, these search algoithms cannot be generalized for multi agents. For example, if we assume that there are five possible movements (i.e. left, right, up, down, and no movement) for an agent in a given location, for two agents, there will be 25 possible movements. Therefor, the tree for the joint space search will be extremely large and inefficient to traverse. 
 ## How to run the program:
 1. Go to env\Scripts and activate the environment by command .\activate
 2. Now navigate back to MultiAgentPathFinding directory and enter following command <br/>
